@@ -1,6 +1,6 @@
 # INF43 · Análisis Forense
 
-Repositorio académico de **INF43 — Análisis Forense**, asignatura de la carrera Técnico de Nivel Superior en Informática mención Ciberseguridad del CFT San Antonio. Aquí se publican materiales de clase, actividades, casos controlados y recursos de apoyo para las secciones diurna y vespertina del segundo semestre de 2026.
+Repositorio académico de **INF43 - Análisis Forense**, asignatura de la carrera Técnico de Nivel Superior en Informática mención Ciberseguridad del CFT San Antonio. Aquí se publican materiales de clase, actividades, casos controlados y recursos de apoyo para las secciones diurna y vespertina del segundo semestre de 2026.
 
 La asignatura aborda la investigación de incidentes mediante un proceso autorizado, ordenado, documentado y reproducible. Su foco no está solo en utilizar herramientas: también exige preservar la integridad de la evidencia, distinguir hechos de interpretaciones, reconocer las limitaciones del análisis y comunicar conclusiones técnicamente fundamentadas.
 
@@ -40,7 +40,7 @@ En particular, se espera que pueda:
 | UA1 · Las bases del análisis forense | 20 | Fundamentos, ética, proceso de investigación, herramientas, preparación del laboratorio, adquisición, duplicación e integridad. | 20% |
 | UA2 · La evidencia digital | 24 | Evaluación y preservación de evidencia; análisis de sistemas operativos, redes, bases de datos, ambientes cloud y dispositivos móviles. | 25% |
 | UA3 · Metodología forense | 28 | Metodología integrada, malware, ataques web y de correo electrónico, documentación, presentación y reporte. | 25% |
-| Evaluación final integradora | — | Resolución de un caso completo mediante procedimientos practicados durante el semestre. | 30% |
+| Evaluación final integradora | - | Resolución de un caso completo mediante procedimientos practicados durante el semestre. | 30% |
 
 Las ponderaciones suman el 100% de la calificación.
 
@@ -59,10 +59,10 @@ En SAINF43-2 cada evaluación se distribuye en dos bloques: la primera fecha cor
 
 La secuencia común comprende 18 lecciones:
 
-1. **Lecciones 01–05 — Fundamentos:** evidencia, ética, proceso forense, laboratorio, adquisición e integridad. La lección 05 integra la UA1.
-2. **Lecciones 06–11 — Evidencia digital:** registro técnico y análisis de sistemas operativos, red, bases de datos, cloud y móviles. La lección 11 integra la UA2.
-3. **Lecciones 12–17 — Investigación aplicada:** metodología e informe, análisis estático y dinámico, ataques web, correo electrónico y resolución de casos. La lección 17 integra la UA3.
-4. **Lección 18 — Evaluación final:** investigación forense completa y presentación de resultados.
+1. **Lecciones 01–05 - Fundamentos:** evidencia, ética, proceso forense, laboratorio, adquisición e integridad. La lección 05 integra la UA1.
+2. **Lecciones 06–11 - Evidencia digital:** registro técnico y análisis de sistemas operativos, red, bases de datos, cloud y móviles. La lección 11 integra la UA2.
+3. **Lecciones 12–17 - Investigación aplicada:** metodología e informe, análisis estático y dinámico, ataques web, correo electrónico y resolución de casos. La lección 17 integra la UA3.
+4. **Lección 18 - Evaluación final:** investigación forense completa y presentación de resultados.
 
 SAINF43-1 desarrolla normalmente cada lección en una clase de cuatro horas. SAINF43-2 distribuye el mismo núcleo formativo en dos bloques de dos horas, de acuerdo con su calendario institucional.
 
