@@ -42,7 +42,18 @@ En particular, se espera que pueda:
 | UA3 · Metodología forense | 28 | Metodología integrada, malware, ataques web y de correo electrónico, documentación, presentación y reporte. | 25% |
 | Evaluación final integradora | — | Resolución de un caso completo mediante procedimientos practicados durante el semestre. | 30% |
 
-Las ponderaciones suman el 100% de la calificación. Las fechas, modalidades y condiciones específicas de cada evaluación se comunican mediante los canales institucionales de la asignatura.
+Las ponderaciones suman el 100% de la calificación.
+
+## Calendario de evaluaciones 2026/2
+
+| Evaluación | Ponderación | SAINF43-1 · Diurna | SAINF43-2 · Vespertina |
+| --- | ---: | --- | --- |
+| Evaluación UA1 | 20% | 07-09-2026 | 08 y 09-09-2026 |
+| Evaluación UA2 | 25% | 26-10-2026 | 20 y 21-10-2026 |
+| Evaluación UA3 | 25% | 07-12-2026 | 01 y 02-12-2026 |
+| Evaluación final | 30% | 14-12-2026 | 09 y 15-12-2026 |
+
+En SAINF43-2 cada evaluación se distribuye en dos bloques: la primera fecha corresponde al inicio y la segunda, al cierre. La evaluación final de esa sección utiliza el bloque del 15 de diciembre para recuperar la clase suspendida por el feriado del 8 de diciembre. Cualquier reprogramación se comunicará mediante los canales institucionales de la asignatura.
 
 ## Ruta del semestre
 
