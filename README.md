@@ -116,6 +116,7 @@ Dentro de cada lección pueden existir guías, actividades, archivos de evidenci
 - Kent, K., Chevalier, S., Grance, T., & Dang, H. (2006). [*Guide to Integrating Forensic Techniques into Incident Response* (NIST SP 800-86)](https://csrc.nist.gov/pubs/sp/800/86/final). National Institute of Standards and Technology.
 - National Institute of Standards and Technology. (2025). [*Incident Response Recommendations and Considerations for Cybersecurity Risk Management* (NIST SP 800-61 Rev. 3)](https://csrc.nist.gov/pubs/sp/800/61/r3/final).
 - National Institute of Standards and Technology. (s. f.). [*Computer Forensic Reference Data Sets (CFReDS)*](https://cfreds.nist.gov/).
+- National Institute of Standards and Technology. (s. f.). [*Computer Forensics Tool Testing Program (CFTT)*](https://www.nist.gov/itl/csd/secure-systems-and-applications/computer-forensics-tool-testing-program-cftt).
 - Scientific Working Group on Digital Evidence. (s. f.). [*Best Practices for Computer Forensic Acquisition*, versión 2.1](https://www.swgde.org/documents/published-complete-listing/17-f-002-2-1/).
 - Scientific Working Group on Digital Evidence. (s. f.). [*Requirements for Report Writing in Digital and Multimedia Forensics*](https://www.swgde.org/documents/published-complete-listing/18-q-002-swgde-requirements-for-report-writing-in-digital-and-multimedia-forensics/).
 - The Sleuth Kit. (s. f.). [*Autopsy User Documentation*](https://www.sleuthkit.org/autopsy/docs/user-docs/).
