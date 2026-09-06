@@ -93,6 +93,10 @@ En cada caso se recomienda seguir este flujo:
 
 Dentro de cada lección pueden existir guías, actividades, archivos de evidencia y documentos de apoyo. Se debe trabajar en la carpeta de la sección correspondiente y respetar las instrucciones particulares de cada entrega.
 
+## Material pesado
+
+Las OVA, imágenes forenses y otros archivos de laboratorio que no se almacenan en GitHub están disponibles en [material de Análisis Forense](https://sud0.link/material-forense).
+
 ## Ética, seguridad e integridad académica
 
 - Analiza únicamente sistemas, cuentas, archivos y redes para los cuales exista autorización expresa.
