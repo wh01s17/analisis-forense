@@ -4,6 +4,10 @@ Repositorio académico de **INF43 - Análisis Forense**, asignatura de la carrer
 
 La asignatura aborda la investigación de incidentes mediante un proceso autorizado, ordenado, documentado y reproducible. Su foco no está solo en utilizar herramientas: también exige preservar la integridad de la evidencia, distinguir hechos de interpretaciones, reconocer las limitaciones del análisis y comunicar conclusiones técnicamente fundamentadas.
 
+## Material de laboratorio
+
+> **Descarga:** [OVA, imágenes forenses y material pesado de Análisis Forense](https://sud0.link/material-forense).
+
 ## Información general
 
 | Antecedente | Detalle |
@@ -92,10 +96,6 @@ En cada caso se recomienda seguir este flujo:
 ```
 
 Dentro de cada lección pueden existir guías, actividades, archivos de evidencia y documentos de apoyo. Se debe trabajar en la carpeta de la sección correspondiente y respetar las instrucciones particulares de cada entrega.
-
-## Material pesado
-
-Las OVA, imágenes forenses y otros archivos de laboratorio que no se almacenan en GitHub están disponibles en [material de Análisis Forense](https://sud0.link/material-forense).
 
 ## Ética, seguridad e integridad académica
 
