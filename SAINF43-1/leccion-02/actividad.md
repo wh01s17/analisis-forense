@@ -25,6 +25,17 @@ aliases:
 
 ## Caso: acceso nocturno y posible extracción
 
+A las 18:20, el encargado de seguridad informa que el computador de recepción muestra abierta una aplicación de acceso remoto. El equipo es utilizado por personas de distintos turnos y permanece encendido.
+
+Soporte entrega los siguientes antecedentes:
+
+- Una fotografía de la pantalla tomada a las 18:22.
+- Una exportación del registro de VPN que muestra una conexión exitosa a las 17:55 desde una dirección IP no habitual.
+- La presencia de un archivo llamado `turnos.zip` en la carpeta Descargas.
+- El comentario de un trabajador: “la persona del turno de la tarde copió información”.
+
+La jefatura autoriza documentar el estado actual, proteger el equipo y conservar los registros relacionados. La autorización no incluye abrir correos, revisar archivos personales ni ejecutar el archivo ZIP. Todavía no se ha determinado quién utilizaba físicamente el computador a las 17:55.
+
 NORTE SUR SPA autoriza investigar el acceso remoto de la lección anterior. El objetivo es establecer si existió acceso no autorizado, qué activos pudieron verse afectados y qué información permite reconstruir los hechos. Se dispone del equipo apagado, registros de VPN, una copia del archivo sospechoso y una exportación de eventos. No está autorizado acceder a archivos personales ajenos al incidente ni contactar al supuesto atacante.
 
 ## Recordatorio para resolver la actividad
