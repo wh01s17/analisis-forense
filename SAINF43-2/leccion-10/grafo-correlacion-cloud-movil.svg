@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="grafo-correlacion-title grafo-correlacion-desc">
+      <title id="grafo-correlacion-title">Grafo de correlación entre cuenta, sesión, dispositivo, objeto y persona</title>
+      <desc id="grafo-correlacion-desc">Ejemplo ficticio BAHÍA SERVICIOS. La cuenta l.rojas se une a la sesión S-82 por el registro de identidad; la sesión se une al objeto O-551 y este a la compartición SH-90 por la auditoría SaaS y la caché móvil, con uniones directas. La sesión aparece en la adquisición lógica del dispositivo MOB-18. El objeto exportado y el metadato móvil coinciden por valor de SHA-256. El dispositivo se une al proxy por IP y ventana temporal. Entre el dispositivo y la persona hay una brecha: la atribución requiere evidencia adicional.</desc>
+      <defs>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;display=swap');</style>
+        <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/>
+        </marker>
+        <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#eb6c36"/>
+        </marker>
+        <marker id="arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+          <polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/>
+        </marker>
+      </defs>
+
+      <rect width="100%" height="100%" fill="#f5f5f5"/>
+
+      <text x="20" y="44" fill="#7a8399" font-size="9" font-family="'Geist Mono', monospace" letter-spacing="0.14em">EJEMPLO · BAHÍA SERVICIOS (FICTICIO)</text>
+
+      <!-- Columnas: x = 20, 252, 484, 716; ancho 168; separación 64.
+           Fila 1: y = 76..148. Fila 2: y = 252..324. -->
+
+      <!-- FLECHAS (antes que los nodos) -->
+      <!-- Directas: fila superior -->
+      <line x1="188" y1="112" x2="249" y2="112" stroke="#4f5d75" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <text x="220" y="102" fill="#4f5d75" font-size="10" font-family="'Geist Mono', monospace" text-anchor="middle">identidad</text>
+      <line x1="420" y1="112" x2="481" y2="112" stroke="#4f5d75" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <text x="452" y="102" fill="#4f5d75" font-size="10" font-family="'Geist Mono', monospace" text-anchor="middle">SaaS+móvil</text>
+      <line x1="652" y1="112" x2="713" y2="112" stroke="#4f5d75" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <text x="684" y="102" fill="#4f5d75" font-size="10" font-family="'Geist Mono', monospace" text-anchor="middle">SaaS+móvil</text>
+
+      <!-- Directa: sesión conservada en la adquisición del dispositivo -->
+      <line x1="336" y1="148" x2="336" y2="249" stroke="#4f5d75" stroke-width="1.4" marker-end="url(#arrow)"/>
+      <text x="346" y="196" fill="#4f5d75" font-size="10" font-family="'Geist Mono', monospace">caché de la app</text>
+      <text x="346" y="210" fill="#4f5d75" font-size="10" font-family="'Geist Mono', monospace">conserva S-82</text>
+
+      <!-- Por valor: hash -->
+      <line x1="568" y1="148" x2="568" y2="249" stroke="#2e5aa8" stroke-width="1.4" stroke-dasharray="6,4" marker-end="url(#arrow-link)"/>
+      <text x="578" y="196" fill="#2e5aa8" font-size="10" font-family="'Geist Mono', monospace">mismo SHA-256</text>
+      <text x="578" y="210" fill="#2e5aa8" font-size="10" font-family="'Geist Mono', monospace">igualdad de bytes</text>
+
+      <!-- Por valor y temporal: proxy -->
+      <line x1="252" y1="288" x2="191" y2="288" stroke="#2e5aa8" stroke-width="1.4" stroke-dasharray="2,3" marker-end="url(#arrow-link)"/>
+      <text x="220" y="278" fill="#2e5aa8" font-size="10" font-family="'Geist Mono', monospace" text-anchor="middle">IP+hora</text>
+
+      <!-- Brecha de atribución: dispositivo -> persona -->
+      <path d="M 336 324 L 336 364 L 800 364 L 800 327" fill="none" stroke="#eb6c36" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow-accent)"/>
+      <rect x="520" y="352" width="24" height="24" rx="12" fill="#f5f5f5" stroke="#eb6c36" stroke-width="1.2"/>
+      <text x="532" y="369" fill="#eb6c36" font-size="14" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">?</text>
+      <text x="568" y="392" fill="#2d3142" font-size="12" font-family="'Geist', sans-serif" text-anchor="middle">Atribución: custodia, asignación vigente, testimonio, cámaras o endpoint</text>
+
+      <!-- NODOS: fila 1 -->
+      <rect x="20" y="76" width="168" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="104" y="108" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Cuenta</text>
+      <text x="104" y="128" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">l.rojas · MFA</text>
+
+      <rect x="252" y="76" width="168" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="336" y="108" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Sesión</text>
+      <text x="336" y="128" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">S-82</text>
+
+      <rect x="484" y="76" width="168" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="568" y="108" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Objeto</text>
+      <text x="568" y="128" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">O-551 · licitacion.pdf</text>
+
+      <rect x="716" y="76" width="168" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="800" y="108" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Compartición</text>
+      <text x="800" y="128" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">SH-90 · externo</text>
+
+      <!-- NODOS: fila 2 -->
+      <rect x="20" y="252" width="168" height="72" rx="6" fill="#2d3142" fill-opacity="0.05" stroke="#4f5d75" stroke-width="1"/>
+      <text x="104" y="284" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Proxy</text>
+      <text x="104" y="304" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">conexión, no contenido</text>
+
+      <rect x="252" y="252" width="168" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+      <text x="336" y="284" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Dispositivo</text>
+      <text x="336" y="304" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">MOB-18 · 10.4.8.17</text>
+
+      <rect x="484" y="252" width="168" height="72" rx="6" fill="#2d3142" fill-opacity="0.05" stroke="#4f5d75" stroke-width="1"/>
+      <text x="568" y="284" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Contenido</text>
+      <text x="568" y="304" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">exportado = caché</text>
+
+      <rect x="716" y="252" width="168" height="72" rx="6" fill="#eb6c36" fill-opacity="0.08" stroke="#eb6c36" stroke-width="1.2" stroke-dasharray="5,4"/>
+      <text x="800" y="284" fill="#2d3142" font-size="16" font-weight="600" font-family="'Geist', sans-serif" text-anchor="middle">Persona</text>
+      <text x="800" y="304" fill="#4f5d75" font-size="12" font-family="'Geist Mono', monospace" text-anchor="middle">no identificada</text>
+
+      <!-- LEYENDA -->
+      <line x1="20" y1="420" x2="940" y2="420" stroke="#2d3142" stroke-opacity="0.10" stroke-width="0.8"/>
+      <text x="20" y="440" fill="#4f5d75" font-size="8" font-family="'Geist Mono', monospace" letter-spacing="0.18em">LEYENDA</text>
+      <line x1="20" y1="466" x2="52" y2="466" stroke="#4f5d75" stroke-width="1.4"/>
+      <text x="62" y="470" fill="#4f5d75" font-size="11" font-family="'Geist', sans-serif">Directa: mismo identificador</text>
+      <line x1="248" y1="466" x2="280" y2="466" stroke="#2e5aa8" stroke-width="1.4" stroke-dasharray="6,4"/>
+      <text x="290" y="470" fill="#4f5d75" font-size="11" font-family="'Geist', sans-serif">Por valor: hash o IP</text>
+      <line x1="440" y1="466" x2="472" y2="466" stroke="#2e5aa8" stroke-width="1.4" stroke-dasharray="2,3"/>
+      <text x="482" y="470" fill="#4f5d75" font-size="11" font-family="'Geist', sans-serif">Por valor y temporal</text>
+      <line x1="640" y1="466" x2="672" y2="466" stroke="#eb6c36" stroke-width="1.6" stroke-dasharray="5,4"/>
+      <text x="682" y="470" fill="#4f5d75" font-size="11" font-family="'Geist', sans-serif">Brecha: requiere evidencia adicional</text>
+    </svg>
