@@ -54,19 +54,20 @@ Las ponderaciones suman el 100% de la calificación.
 | --- | ---: | --- | --- |
 | Evaluación UA1 | 20% | 07-09-2026 | 08 y 09-09-2026 |
 | Evaluación UA2 | 25% | 26-10-2026 | 20 y 21-10-2026 |
-| Evaluación UA3 | 25% | 07-12-2026 | 01 y 02-12-2026 |
+| Evaluación UA3 | 25% | 30-11-2026 | 24 y 25-11-2026 |
 | Evaluación final | 30% | 14-12-2026 | 09 y 15-12-2026 |
 
-En SAINF43-2 cada evaluación se distribuye en dos bloques: la primera fecha corresponde al inicio y la segunda, al cierre. La evaluación final de esa sección utiliza el bloque del 15 de diciembre para recuperar la clase suspendida por el feriado del 8 de diciembre. Cualquier reprogramación se comunicará mediante los canales institucionales de la asignatura.
+En SAINF43-2 cada evaluación se distribuye en dos bloques: la primera fecha corresponde al inicio y la segunda, al cierre. La evaluación final de SAINF43-1 recupera la clase suspendida por el feriado del 12 de octubre; la de SAINF43-2 utiliza el bloque del 15 de diciembre para recuperar la clase suspendida por el feriado del 8 de diciembre. Cualquier reprogramación se comunicará mediante los canales institucionales de la asignatura.
 
 ## Ruta del semestre
 
 La secuencia común comprende 18 lecciones:
 
-1. **Lecciones 01–05 - Fundamentos:** evidencia, ética, proceso forense, laboratorio, adquisición e integridad. La lección 05 integra la UA1.
-2. **Lecciones 06–11 - Evidencia digital:** registro técnico y análisis de sistemas operativos, red, bases de datos, cloud y móviles. La lección 11 integra la UA2.
-3. **Lecciones 12–17 - Investigación aplicada:** metodología e informe, análisis estático y dinámico, ataques web, correo electrónico y resolución de casos. La lección 17 integra la UA3.
-4. **Lección 18 - Evaluación final:** investigación forense completa y presentación de resultados.
+1. **Lecciones 01-05 - Fundamentos:** evidencia, ética, proceso forense, laboratorio, adquisición e integridad. La lección 05 integra la UA1.
+2. **Lecciones 06-11 - Evidencia digital:** registro técnico y análisis de sistemas operativos, red, bases de datos, cloud y móviles. La lección 11 integra la UA2.
+3. **Lecciones 12-16 - Investigación aplicada:** metodología e informe, análisis estático y dinámico, ataques web, correo electrónico y resolución de casos. La lección 16 integra la UA3.
+4. **Lección 17 - Laboratorio integrador:** mini-CTF opcional y sin calificación, con artefactos ya trabajados. Es el bloque colchón del semestre y puede omitirse para absorber una suspensión.
+5. **Lección 18 - Evaluación final:** investigación forense completa y presentación de resultados.
 
 SAINF43-1 desarrolla normalmente cada lección en una clase de cuatro horas. SAINF43-2 distribuye el mismo núcleo formativo en dos bloques de dos horas, de acuerdo con su calendario institucional.
 
